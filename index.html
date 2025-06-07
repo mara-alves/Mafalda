@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>mafalda</title>
-        <style>
-            body {
-                margin: 0px;
-                overflow: hidden;
-                background-color: #fff;
-                background-image: url(background.jpg);
-                background-size: 100%;
-            }
-        </style>
-        <script src='js/three.js'></script>
-        <script src='js/OrbitControls.js'></script>
-        <script src="js/main.js"></script>
-    </head>
-    <body>
-        <script>
-            init();
-            animate();
-        </script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mafalda</title>
+    <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+        background: #ffd38c;
+        background: linear-gradient(
+          140deg,
+          rgba(255, 211, 140, 1) 0%,
+          rgba(247, 193, 226, 1) 50%,
+          rgba(184, 221, 255, 1) 100%
+        );
+      }
+    </style>
+    <script src="js/three.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <script>
+      init();
+      animate();
+    </script>
+  </body>
 </html>
